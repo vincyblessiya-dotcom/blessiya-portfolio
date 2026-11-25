@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Blessiya Vincy W — Computer Science graduate, Python, Machine Learning and Generative AI.">
+  <title>Blessiya Vincy W | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="matrix" aria-hidden="true"></canvas>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark">BV</span><span>BLESSIYA<span class="accent">.DEV</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact" class="nav-contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="status"><span class="pulse"></span> AVAILABLE FOR OPPORTUNITIES</div>
+        <p class="eyebrow">HELLO WORLD, I'M</p>
+        <h1>BLESSIYA<br><span class="glitch" data-text="VINCY W">VINCY W</span><span class="cursor">_</span></h1>
+        <p class="hero-role"><span class="accent">&lt;</span> Computer Science Graduate <span class="accent">/</span> Python • AI • GenAI <span class="accent">&gt;</span></p>
+        <p class="hero-intro">I turn ideas into practical digital solutions — exploring intelligent systems, building useful applications, and learning by creating.</p>
+        <div class="hero-actions"><a class="btn primary" href="#projects">Explore my work <span>↘</span></a><a class="btn secondary" href="#contact">Let's connect <span>↗</span></a></div>
+        <div class="hero-meta"><span><b>01</b> CURIOUS MIND</span><span><b>02</b> CONTINUOUS LEARNER</span><span><b>03</b> BUILDER</span></div>
+      </div>
+      <div class="terminal-wrap">
+        <div class="terminal">
+          <div class="terminal-head"><div class="traffic"><i></i><i></i><i></i></div><span>blessiya@portfolio: ~</span><span class="terminal-dots">•••</span></div>
+          <div class="terminal-body">
+            <p><span class="term-green">visitor@web</span>:<span class="term-blue">~</span>$ whoami</p>
+            <p class="term-output">M.Sc. Computer Science & Technology</p>
+            <p><span class="term-green">visitor@web</span>:<span class="term-blue">~</span>$ focus --current</p>
+            <p class="term-output">Machine Learning<br>Generative AI & RAG<br>Python Development</p>
+            <p><span class="term-green">visitor@web</span>:<span class="term-blue">~</span>$ status</p>
+            <p class="term-output"><span class="term-online">●</span> Ready to build something useful.</p>
+            <p><span class="term-green">visitor@web</span>:<span class="term-blue">~</span>$ <span class="typing"></span><span class="cursor small">_</span></p>
+          </div>
+        </div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="float-chip chip-one">PYTHON</div><div class="float-chip chip-two">GEN AI</div><div class="float-chip chip-three">ML / DL</div>
+      </div>
+      <a class="scroll-hint" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label"><span>01 / ABOUT</span><span class="line"></span><span>GET TO KNOW ME</span></div>
+      <div class="about-grid">
+        <div><p class="mini-label">// A LITTLE INTRODUCTION</p><h2>Curiosity drives<br><span class="accent">my code.</span></h2></div>
+        <div class="about-text"><p class="lead">I'm a motivated M.Sc. Computer Science & Technology graduate who enjoys learning new technologies and applying concepts to practical problems.</p><p>My interests include Python development, machine learning, deep learning and Generative AI. I enjoy exploring how systems work, building projects, and improving through hands-on practice.</p><p>I'm looking for an opportunity to begin my professional journey, contribute to a team, and keep growing as a developer.</p>
+          <div class="about-facts"><div><strong>8.2</strong><span>GPA / 10</span></div><div><strong>2021–26</strong><span>INTEGRATED M.Sc.</span></div><div><strong>Chennai</strong><span>LOCATION</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-label"><span>02 / TOOLKIT</span><span class="line"></span><span>WHAT I WORK WITH</span></div>
+      <h2 class="section-title">My <span class="accent">tech stack</span></h2>
+      <p class="section-sub">Tools and technologies I've used across learning and projects.</p>
+      <div class="skill-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Programming</h3><div class="tags"><span>Python</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>SQL</span></div></article>
+        <article class="skill-card"><div class="skill-icon">◈</div><h3>ML & Deep Learning</h3><div class="tags"><span>Machine Learning</span><span>Scikit-learn</span><span>TensorFlow</span><span>Keras</span><span>CNN</span><span>GAN</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌬</div><h3>Generative AI</h3><div class="tags"><span>RAG</span><span>LLMs</span><span>Gemini API</span><span>Embeddings</span><span>Semantic Search</span></div></article>
+        <article class="skill-card"><div class="skill-icon">▤</div><h3>Data & Tools</h3><div class="tags"><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span><span>MySQL</span><span>Supabase</span><span>ChromaDB</span><span>Streamlit</span><span>Git & GitHub</span><span>Colab</span><span>VS Code</span></div></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-label"><span>03 / SELECTED WORK</span><span class="line"></span><span>THINGS I'VE BUILT</span></div>
+      <h2 class="section-title">Featured <span class="accent">projects</span></h2>
+      <p class="section-sub">A few practical projects from my learning journey.</p>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-visual visual-rag"><div class="visual-grid"></div><div class="doc-icon">PDF</div><div class="search-pill">⌕ &nbsp; Ask your document...</div><div class="answer-lines"><i></i><i></i><i></i></div><span class="visual-caption">RETRIEVAL // GENERATION</span></div>
+          <div class="project-info"><div class="project-top"><span class="project-type">GENERATIVE AI / 2026</span><span class="project-number">01</span></div><h3>PDF Question-Answering Bot using RAG</h3><p>Built a document Q&A application that retrieves relevant PDF content and generates grounded answers. Includes source citations with file names and page numbers to improve traceability.</p><div class="tags"><span>Python</span><span>Gemini API</span><span>ChromaDB</span><span>Streamlit</span><span>RAG</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-gesture"><div class="neural"><span>INPUT</span><b>✋</b><span>CNN → GAN</span><strong>GENERATE</strong></div><span class="visual-caption">VISION // DEEP LEARNING</span></div>
+          <div class="project-info"><div class="project-top"><span class="project-type">DEEP LEARNING / 2026</span><span class="project-number">02</span></div><h3>Gesture Recognition using CNN and GAN</h3><p>Developed a CNN model to classify hand gesture images into multiple classes, then used predictions as the basis for a GAN-based image generation approach.</p><div class="tags"><span>Python</span><span>TensorFlow</span><span>Keras</span><span>CNN</span><span>GAN</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-bmart"><div class="barcode">▥▥▥▥▥▥▥</div><div class="scan-beam"></div><div class="scan-label">PRODUCT SCAN <span>✓</span></div><span class="visual-caption">WEB // BARCODE SCANNER</span></div>
+          <div class="project-info"><div class="project-top"><span class="project-type">WEB DEVELOPMENT / 2023</span><span class="project-number">03</span></div><h3>Bmart</h3><p>Developed a browser-based barcode scanner to scan product barcodes and retrieve product information, integrating scanning with a shopping workflow.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>ZXing</span><span>API</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-label"><span>04 / JOURNEY</span><span class="line"></span><span>EXPERIENCE & EDUCATION</span></div>
+      <h2 class="section-title">The <span class="accent">path so far</span></h2>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-date">2025</div><div class="timeline-dot"></div><div class="timeline-content"><span class="mini-label">INTERNSHIP · IMAGE TECHNOLOGIES</span><h3>Web Developer</h3><p>Supported front-end development using HTML, CSS and JavaScript; tested features across browsers, updated code based on feedback, and assisted with debugging interface issues.</p></div></article>
+        <article class="timeline-item"><div class="timeline-date">2023</div><div class="timeline-dot"></div><div class="timeline-content"><span class="mini-label">INTERNSHIP · TEACHZE</span><h3>Quality Assurance</h3><p>Performed software testing to identify bugs, followed up on reported issues, and supported improvements to application quality and user experience.</p></div></article>
+        <article class="timeline-item"><div class="timeline-date">2021–2026</div><div class="timeline-dot"></div><div class="timeline-content"><span class="mini-label">WOMEN'S CHRISTIAN COLLEGE · CHENNAI</span><h3>M.Sc. Computer Science & Technology (Integrated)</h3><p>GPA: 8.2 / 10</p></div></article>
+        <article class="timeline-item"><div class="timeline-date">2020–2021</div><div class="timeline-dot"></div><div class="timeline-content"><span class="mini-label">ST BRITTO · VELACHERY, CHENNAI</span><h3>Higher Secondary Certificate (HSC)</h3><p>82 / 100</p></div></article>
+        <article class="timeline-item"><div class="timeline-date">2018–2019</div><div class="timeline-dot"></div><div class="timeline-content"><span class="mini-label">ST BRITTO · VELACHERY, CHENNAI</span><h3>Secondary School Leaving Certificate (SSLC)</h3><p>79 / 100</p></div></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-label"><span>05 / CONTACT</span><span class="line"></span><span>LET'S TALK</span></div>
+      <div class="contact-panel"><div><p class="mini-label">// HAVE A PROJECT OR OPPORTUNITY?</p><h2>Let's build<br><span class="accent">what's next.</span></h2><p class="contact-copy">I'm open to opportunities where I can learn, contribute, and grow. Feel free to get in touch.</p></div>
+        <div class="contact-links"><a href="mailto:vincyblessiya@gmail.com"><span>EMAIL</span><strong>vincyblessiya@gmail.com ↗</strong></a><a href="tel:+919790865929"><span>PHONE</span><strong>+91 97908 65929 ↗</strong></a><div><span>LOCATION</span><strong>Chennai, India</strong></div><a href="https://github.com/vincyblessiya-dotcom" target="_blank" rel="noopener"><span>GITHUB</span><strong>github.com/vincyblessiya-dotcom ↗</strong></a></div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">BV</span><span>BLESSIYA<span class="accent">.DEV</span></span></a><span>DESIGNED & BUILT WITH CURIOSITY <span class="accent">✦</span></span><span>© <span id="year"></span> BLE​​SSIYA VINCY W</span></footer>
+  <button id="backTop" class="back-top" aria-label="Back to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
